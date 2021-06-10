@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import { DateTime } from "luxon";
 export default {
   name: "Soccer",
   props: ["res"],

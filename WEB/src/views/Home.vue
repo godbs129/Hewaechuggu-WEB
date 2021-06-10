@@ -21,5 +21,6 @@ img {
   height: 450px;
   width: 450px;
   border-radius: 300px;
+  margin-top: 50px;
 }
 </style>
