@@ -1,19 +1,19 @@
 <template>
   <div class="soccer">
-    <div class="soccer-game">
-      <h3 class="game-team">{{ res.title }}</h3>
-      <span>{{ res.date.slice(0, 10) }}</span>
-      <img class="thumbnail" v-bind:src="res.thumbnail" />
+    <div class="games">
+      <h3 class="game-team">{{ data.title }}</h3>
+      <span>{{ data.date.slice(0, 10) }}</span>
+      <img class="thumbnail" v-bind:src="data.thumbnail" />
       <br />
-      <span>{{ res.competition.name.replace(":", " ") }}</span>
+      <span>{{ data.competition.name.replace(":", " ") }}</span>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Soccer",
-  props: ["res"],
+  name: "SearchView",
+  props: ["data"],
 };
 </script>
 <style lang="scss" scoped>
@@ -24,7 +24,7 @@ export default {
   vertical-align: top;
   margin: 8px;
 }
-.soccer-game {
+.games {
   padding: 10px;
   border-top: 1px solid #aaa;
   h3 {
