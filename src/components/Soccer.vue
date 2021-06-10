@@ -3,6 +3,7 @@
     <div class="soccer-game">
       <h3 class="game-team">{{ res.title }}</h3>
       <span>{{ res.date.slice(0, 10) }}</span>
+      <!-- split -->
       <br />
       <span>{{ res.competition.name.replace(":", " ") }}</span>
     </div>
@@ -10,7 +11,6 @@
 </template>
 
 <script>
-import { DateTime } from "luxon";
 export default {
   name: "Soccer",
   props: ["res"],

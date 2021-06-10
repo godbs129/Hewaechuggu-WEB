@@ -1,10 +1,11 @@
 <template>
-  <div></div>
+  <div>
+    <input type="text" />
+  </div>
 </template>
 
 <script>
 export default {
   name: "Search",
-  components: {},
 };
 </script>
