@@ -1,8 +1,8 @@
 {
+  "homepage": "http://hewaechuggu.dgsw.kr",
   "name": "hewaechuggu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://godbs129.github.io/Hewaechuggu-WEB/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

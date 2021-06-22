@@ -11,7 +11,7 @@ export default new Vuex.Store({
   },
   mutations: {
     getGames: async (state, team) => {
-      state.game = (await axios.get(`http://localhost:4000/search/get?team=${team}`)).data.data;
+      state.game = (await axios.get(`http://35.203.161.69:4000/search/get?team=${team}`)).data.data;
     },
   },
   actions: {
